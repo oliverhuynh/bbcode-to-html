@@ -85,7 +85,7 @@ function get(tag) {
     const node = nodes.find(node => node.tag === tag);
 
     if (!node) {
-        throw "Unsupported node tag of "+ tag;
+        console.error("Unsupported node tag of "+ tag);
     }
 
     return node;
