@@ -35,6 +35,11 @@ const nodes = [
         html_close: "</h3>"
     },
     {
+        tag: "size",
+        html_open: "<h3>",
+        html_close: "</h3>"
+    },
+    {
         tag: "h4",
         html_open: "<h4>",
         html_close: "</h4>"
